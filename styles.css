@@ -37,18 +37,19 @@
   width: 100%;
   height: 1px;
   background-color: black;
+  border: 1px solid black; /* Add border style */
 }
 
 .line-1 {
-  top: 33.3%;
+  top: calc(33.3% - 0.5px); /* Adjusted spacing */
 }
 
 .line-2 {
-  top: calc(33.3% * 2);
+  top: calc(66.6% - 0.5px); /* Adjusted spacing */
 }
 
 .line-3 {
-  top: calc(33.3% * 3);
+  top: calc(100% - 0.5px); /* Adjusted spacing */
 }
 
 @keyframes rotate {
